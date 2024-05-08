@@ -59,6 +59,10 @@
     .reset-link {
       @apply text-slate-500 underline;
     }
+
+    .error{
+      @apply mb-10 px-4 py-3 rounded border border-red-600 bg-red-200 text-sm text-red-700
+    }
   </style>
   {{-- blade-formatter-enable --}}
 </head>
